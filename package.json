@@ -1,21 +1,21 @@
 {
-  "publisher": "antfu",
-  "name": "theme-vitesse",
-  "displayName": "Vitesse Theme",
+  "publisher": "jvxz",
+  "name": "theme-menhera",
+  "displayName": "menhera theme",
   "version": "1.0.1",
   "packageManager": "pnpm@10.15.0",
-  "description": "Vitesse theme for VS Code",
+  "description": "menhera theme for VS Code",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/antfu/vscode-theme-vitesse"
+    "url": "https://github.com/jvxz/vscode-theme-menhera"
   },
   "bugs": {
-    "url": "https://github.com/antfu/vscode-theme-vitesse/issues"
+    "url": "https://github.com/jvxz/vscode-theme-menhera/issues"
   },
   "keywords": [
     "theme",
-    "vitesse",
+    "menhera",
     "light",
     "dark"
   ],
@@ -28,7 +28,6 @@
   "icon": "icon.png",
   "files": [
     "LICENSE.md",
-    "extra/*",
     "icon.png",
     "themes/*"
   ],
@@ -38,29 +37,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Vitesse Light",
+        "label": "menhera light",
         "uiTheme": "vs",
-        "path": "./themes/vitesse-light.json"
+        "path": "./themes/menhera-light.json"
       },
       {
-        "label": "Vitesse Dark",
+        "label": "menhera dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/vitesse-dark.json"
-      },
-      {
-        "label": "Vitesse Black",
-        "uiTheme": "vs-dark",
-        "path": "./themes/vitesse-black.json"
-      },
-      {
-        "label": "Vitesse Light Soft",
-        "uiTheme": "vs",
-        "path": "./themes/vitesse-light-soft.json"
-      },
-      {
-        "label": "Vitesse Dark Soft",
-        "uiTheme": "vs-dark",
-        "path": "./themes/vitesse-dark-soft.json"
+        "path": "./themes/menhera-dark.json"
       }
     ]
   },
